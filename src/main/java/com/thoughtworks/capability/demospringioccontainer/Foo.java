@@ -11,6 +11,10 @@ public class Foo {
         this.bar = bar;
     }
 
+    public void setBar(Bar bar) {
+        this.bar = bar;
+    }
+
     public void hi() {
         System.out.println("Hi, " + bar.name());
     }
